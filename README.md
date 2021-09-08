@@ -51,15 +51,15 @@ you can sign up in docker hub
 use below commands step wise for docker deplymeent
 
 #building producer project using Dockerfile present inside this 
-docker build -f Dockerfile -t helloproducer .
+->docker build -f Dockerfile -t helloproducer .
 #checking images are there or not
-docker images
+->docker images
 
 #building consumer project using Dockerfile present inside this 
-docker build -f Dockerfile -t  helloconsumer  .
+->docker build -f Dockerfile -t  helloconsumer  .
 #checking images are there or not
-docker images
-docker ps
+->docker images
+->docker ps
 
 #creating network bridge between producer and consumer
 docker network create producernet
